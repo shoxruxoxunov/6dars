@@ -36,7 +36,7 @@ function Navbar() {
 
             {/* sun icon */}
             <svg
-              className="swap-on h-10 w-10 fill-black"
+              className="swap-on h-3 w-10 fill-black md:h-8"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -45,7 +45,7 @@ function Navbar() {
 
             {/* moon icon */}
             <svg
-              className="swap-off h-10 w-10 fill-current"
+              className="swap-off h-3 w-10 fill-current md:h-8"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -54,7 +54,7 @@ function Navbar() {
           </label>
         </div>
         <div className="flex items-center gap-6">
-          <p className="sm:text-xs md:text-base">Welcome {user.displayName}</p>
+          <p className="text-xs md:text-base">Welcome {user.displayName}</p>
           <button onClick={logout} className="btn btn-secondary btn-sm md:btn">
             Loguot
           </button>
