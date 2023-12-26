@@ -1,9 +1,13 @@
-import React from "react";
+import { useContext } from "react";
+import { GlobalContext } from "../context/GlobabContext";
 
 function Home() {
+  const { dispatch } = useContext(GlobalContext);
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="max-container">
+      <h1 className="sm:text-xs  sm:font-light sm:leading-3 md:text-3xl md:font-black md:leading-10">
+        Home
+      </h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi dolores
         illum natus vero minus a. Quod molestiae quae dolore voluptates magni

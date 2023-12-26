@@ -25,12 +25,7 @@
         @apply mx-auto px-3 w-full
     }
 
-    .max-container2 {
-        max-width: 600px;
-        margin-top: 200px;
-        margin-bottom: 200px;
-        @apply mx-auto px-3 w-full
-    }
+   
 
 
 }
